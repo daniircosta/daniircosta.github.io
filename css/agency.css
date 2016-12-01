@@ -199,7 +199,7 @@ h6 {
       font-size: 1.5em; } }
 
 header {
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/lisbon.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -322,7 +322,6 @@ section {
     margin: 0 0 30px; } }
 
 section#separator {
-  width: 90%;
   padding: 0pt; }
 
 .timeline {
