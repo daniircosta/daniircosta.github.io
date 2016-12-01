@@ -321,8 +321,9 @@ section {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
-.separator {
-  width: 90%; }
+section#separator {
+  width: 90%;
+  padding: 0pt; }
 
 .timeline {
   list-style: none;
@@ -362,6 +363,12 @@ section {
         border-right-width: 14px;
         left: -14px;
         right: auto; }
+      .timeline > li .timeline-panel.top-ibs {
+        padding-bottom: 0pt;
+        height: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column; }
     .timeline > li .timeline-image {
       left: 0;
       margin-left: 0;
@@ -370,7 +377,7 @@ section {
       position: absolute;
       z-index: 100;
       background-color: white;
-      color: white;
+      color: #fed136;
       border-radius: 100%;
       border: 7px solid #f1f1f1;
       text-align: center; }
@@ -378,8 +385,10 @@ section {
         font-size: 10px;
         margin-top: 12px;
         line-height: 14px; }
-      .timeline > li .timeline-image .my-story {
-        color: white; }
+      .timeline > li .timeline-image #kids {
+        object-fit: cover;
+        height: 100%;
+        width: 100%; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       text-align: left;

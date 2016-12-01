@@ -319,8 +319,9 @@ section {
     }
 }
 
-.separator {
+section#separator {
     width: 90%;
+    padding: 0pt
 }
 
 // Timeline
@@ -368,6 +369,13 @@ section {
                 left: -14px;
                 right: auto;
             }
+            &.top-ibs {
+                padding-bottom: 0pt;
+                height: 100px;
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+            }
         }
         .timeline-image {
             left: 0;
@@ -377,7 +385,7 @@ section {
             position: absolute;
             z-index: 100;
             background-color: white;
-            color: white;
+            color: $theme-primary;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
             text-align: center;
@@ -386,8 +394,10 @@ section {
                 margin-top: 12px;
                 line-height: 14px;
             }
-            .my-story {
-                color: white;
+            #kids {
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
             }
         }
         &.timeline-inverted>.timeline-panel {
