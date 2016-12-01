@@ -321,6 +321,9 @@ section {
   #portfolio .portfolio-item {
     margin: 0 0 30px; } }
 
+.separator {
+  width: 90%; }
+
 .timeline {
   list-style: none;
   padding: 0;
@@ -366,7 +369,7 @@ section {
       height: 80px;
       position: absolute;
       z-index: 100;
-      background-color: #fed136;
+      background-color: white;
       color: white;
       border-radius: 100%;
       border: 7px solid #f1f1f1;
@@ -375,6 +378,8 @@ section {
         font-size: 10px;
         margin-top: 12px;
         line-height: 14px; }
+      .timeline > li .timeline-image .my-story {
+        color: white; }
     .timeline > li.timeline-inverted > .timeline-panel {
       float: right;
       text-align: left;
